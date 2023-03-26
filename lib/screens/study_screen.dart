@@ -31,15 +31,11 @@ class StudyScreen extends StatelessWidget {
             ),
             const Spacer(),
             CircleAvatar(
-              radius: 30,
+              radius: 27,
               backgroundColor: MondayColors.kBlueColor,
               child: CircleAvatar(
-                radius: 28,
-                backgroundColor: Colors.white,
-                child: Text(
-                  'B',
-                  style: MondayTS.blackS24W600,
-                ),
+                radius: 25,
+                backgroundImage: AssetImage('assets/ava.jpeg'),
               ),
             )
           ],

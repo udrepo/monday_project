@@ -25,13 +25,6 @@ class SubscriptionScreen extends StatelessWidget {
           child: Column(
             children: [
               SvgPicture.asset('assets/subscribtion_illustration.svg', height: 410,),
-              Text(
-                'Жазылым сатып алу',
-                style: MondayTS.blackS24W600,
-              ),
-              SizedBox(
-                height: 40,
-              ),
               Container(
                 padding: EdgeInsets.all(20),
                 decoration: BoxDecoration(
@@ -67,7 +60,7 @@ class SubscriptionScreen extends StatelessWidget {
                     // ),
                     child: Text(
                       'Сатып алу',
-                      style: MondayTS.whiteS12W400,
+                      style: MondayTS.whiteS18W400,
                     )),
               ),
             ],
