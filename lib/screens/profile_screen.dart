@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:monday_project/config/monday_colors.dart';
 import 'package:monday_project/config/monday_text_styles.dart';
+import 'package:monday_project/screens/contact_us_screen.dart';
 import 'package:monday_project/screens/edit_profile_screen.dart';
+import 'package:monday_project/screens/favorites_screen.dart';
 import 'package:monday_project/screens/history_screen.dart';
 import 'package:monday_project/screens/purchases_screen.dart';
 import 'package:monday_project/screens/subscription_screen.dart';
@@ -80,7 +82,13 @@ class ProfileScreen extends StatelessWidget {
         GrayButton(
           text: 'Таңдаулылар',
           icon: 'assets/icons/ic_star.svg',
-          onTap: () {},
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => FavoritesScreen()),
+            );
+          },
         ),
         SizedBox(
           height: 20,
@@ -88,7 +96,13 @@ class ProfileScreen extends StatelessWidget {
         GrayButton(
           text: 'Бізбен байланыс',
           icon: 'assets/icons/ic_mail.svg',
-          onTap: () {},
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => ContactUsScreen()),
+            );
+          },
         ),
         SizedBox(
           height: 20,

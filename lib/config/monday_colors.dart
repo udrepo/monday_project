@@ -24,4 +24,8 @@ class MondayColors {
   static const Color kNavBarBgColor = Color(0xffF8F3F3);
   static const Color kGrayBgColor = Color(0xffD9D9D9);
   static const Color kLightGrayBgColor = Color(0xffF7F7F7);
+  static const Color kWhatsAppColor = Color(0xff25D366);
+  static const Color kTelegramColor = Color(0xff0088cc);
+
+
 }
